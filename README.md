@@ -1,7 +1,6 @@
 # 🎬 Movie Search - Find Your Favorite Films
 
-## Description
-A web application that allows users to search for their favorite movies and view details about them.
+A web application that allows users to search for their favorite movies and view detailed information about them. Built with vanilla JavaScript and the OMDB API, this project demonstrates core web development skills including API integration, DOM manipulation, and responsive design. Users can easily discover movies, access comprehensive details like cast and ratings, and enjoy a seamless experience across all devices.
 
 ## Features
 - Search for movies by title.
