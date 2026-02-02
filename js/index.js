@@ -1,4 +1,4 @@
-let key = "e441132c"
+let key = "OMDB_API"
 
 function search(){
     let movieName = document.getElementById("movie").value.trim()
