@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Search - Find Your Favorite Films</title>
+        <link rel="stylesheet" href="css/index.css"/>
+        <script src="js/index.js"></script>
+    </head>
+    <body> 
+        <header class="app-header">
+            <h1 class="app-title">🎬 Movie Search</h1>
+            <p class="app-subtitle">Discover movies, cast, ratings, and detailed information</p>
+        </header>
+        <div class="search-container">
+            <input id="movie" placeholder="Enter movie name..." autocomplete="off"/>
+            <button onclick="search()">Search</button>
+        </div>
+        <div id="error-message" class="error-message"></div>
+        <div class="movie-info">
+            <div class="movie-header">
+                <h1 id="title"></h1>
+                <h3 id="year"></h3>
+            </div>
+            <div class="movie-content">
+                <img id="poster" alt="Movie Poster"/>
+                <div class="plot-and-details">
+                    <p id="plot"></p>
+                    <div class="cast-ratings">
+                        <div class="cast">
+                            <h4>🎭 Main Cast:</h4>
+                            <p id="actors"></p>
+                        </div>
+                        <div class="ratings">
+                            <h4>⭐ Ratings:</h4>
+                            <ul id="ratings-list"></ul>
+                        </div>
+                    </div>
+                    <div class="movie-details">
+                        <div class="detail-item">
+                            <h4>🎬 Director:</h4>
+                            <p id="director"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>✍️ Writer:</h4>
+                            <p id="writer"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>🏷️ Genre:</h4>
+                            <p id="genre"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>🗣️ Language:</h4>
+                            <p id="language"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>🏆 Awards:</h4>
+                            <p id="awards"></p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>💰 Box Office:</h4>
+                            <p id="boxoffice"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <p>© 2026 Movie Search. All rights reserved. Developed by Buddhi Rangana</p>
+        </footer>
+    </body>
+</html>
