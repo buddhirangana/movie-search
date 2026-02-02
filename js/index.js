@@ -1,4 +1,6 @@
-let key = "OMDB_API"
+// API key is stored in the .env file as OMDB_API_KEY
+// For development, replace the value below with your OMDB API key
+let key = "e441132c"
 
 function search(){
     let movieName = document.getElementById("movie").value.trim()
