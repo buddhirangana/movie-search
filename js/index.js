@@ -11,7 +11,7 @@ function search(){
     hideError()
 
     let url = "https://www.omdbapi.com/?t="+encodeURIComponent(movieName)+"&apikey="+key
-    console.log(url)
+    // console.log(url)
 
     let httpRequest = new XMLHttpRequest()
     httpRequest.open("GET", url)
